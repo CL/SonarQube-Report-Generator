@@ -10,7 +10,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/src$generateReport.coverage" NAME="generateReport Coverage Results" MODIFIED="1523639984732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/src$generateReport.coverage" NAME="generateReport Coverage Results" MODIFIED="1523645909908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/daily_report$generateReport.coverage" NAME="generateReport Coverage Results" MODIFIED="1523631290020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
@@ -18,8 +18,8 @@
       <file leaf-file-name="generateReport.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/generateReport.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="27" column="147" selection-start-line="27" selection-start-column="106" selection-end-line="27" selection-end-column="147" />
+            <state relative-caret-position="178">
+              <caret line="34" column="66" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -253,8 +253,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/generateReport.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="27" column="147" selection-start-line="27" selection-start-column="106" selection-end-line="27" selection-end-column="147" />
+        <state relative-caret-position="178">
+          <caret line="34" column="66" selection-start-line="34" selection-start-column="66" selection-end-line="34" selection-end-column="66" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>

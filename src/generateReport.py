@@ -25,15 +25,14 @@ def generate_report(template, measures):
 
 def get_measures(config):
     project_id = get_project_id(config)
-    request = urllib.request.Request(config['url']+'/api/measures/component?componentId='+id+'&metricKeys=code_smells,bugs,vulnerabilities,coverage&additionalFields=metrics,periods')
-    request.add_header('Authorization', 'Basic MThlZWM0MTVkNjFiZmNiZjg1YmMwY2Q3YzRiNmNlY2FhYjE1NjY5Mzo=')
-
-    return json.loads(urllib.request.urlopen(req).read())
+    request = urllib.request.Request(config['url']+'/api/measures/component?componentId='+project_id+'&metricKeys='+config['metrics']+'&additionalFields=metrics,periods')
+    request.add_header('Authorization', 'Basic ' + config['token'])
+    return json.loads(urllib.request.urlopen(request).read())
 
 
 def get_project_id(config):
     request = urllib.request.Request(config['url'] + '/api/components/show?key=' + config['project_name'])
-    request.add_header('Authorization', 'Basic MThlZWM0MTVkNjFiZmNiZjg1YmMwY2Q3YzRiNmNlY2FhYjE1NjY5Mzo=')
+    request.add_header('Authorization', 'Basic ' + config['token'])
     return json.loads(urllib.request.urlopen(request).read())['component']['id']
 
 
