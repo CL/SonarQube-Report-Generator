@@ -24,7 +24,8 @@ As configurações são feitas no arquivo config.json. Basicamente é necessári
 * [Token da API](https://docs.sonarqube.org/display/SONAR/User+Token) do Sonar;
 * Nome do projeto no Sonar (aquele que vem depois do /k: na hora de criação);
 * Nome do template;
-* Metricas desejadas, separadas por vírgula.
+* Metricas desejadas, separadas por vírgula;
+* Nome do arquivo de saída.
 
 Exemplo:
 ```json
@@ -33,11 +34,13 @@ Exemplo:
   "token": "MThlZWM0MTVkNjFiZmNiZjg1YmMwY2Q3YzRiNmNlY2FhYjE1NjY5Mzo=",
   "project_name": "Proj.test",
   "template": "template.md",
-  "metrics": "code_smells,bugs,vulnerabilities,coverage"
+  "metrics": "code_smells,bugs,vulnerabilities,coverage",
+  "output": "report.md"
 }
 ```
 
 ## Template
 
 O template pode ser qualquer arquivo de texto, os indicadores do Sonar devem estar escritos da seguinte forma `__nomeIndicador__` .
+Além dos indicadores é possível usar a tag para substituir o nome do projeto: `__project_name__`
 
