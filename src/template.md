@@ -1,6 +1,6 @@
 # Acompanhamento Diário
 
-## Projeto: XXX0031 - 10/04/2018
+## Projeto: __project_name__ - 10/04/2018
 
 ### 📝 Status:
 >✔️ -  **__coverage__%**

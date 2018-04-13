@@ -6,7 +6,7 @@ def main():
     config = get_config()
     template = get_template(config)
     measures = get_measures(config)
-    generate_report(template, measures)
+    generate_report(template, measures, config)
 
 
 def get_config():
@@ -15,10 +15,11 @@ def get_config():
     return json.loads(config_string)
 
 
-def generate_report(template, measures):
+def generate_report(template, measures, config):
     for metric in measures['component']['measures']:
         template = template.replace('__'+metric['metric']+'__', metric['value'])
-    report = open("report.md", "w+", encoding="utf8")
+    template = template.replace('__project_name__', measures['component']['name'])
+    report = open(config['output'], "w+", encoding="utf8")
     report.writelines(template)
     report.close()
 
