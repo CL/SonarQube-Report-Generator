@@ -1,8 +1,12 @@
 {
   "url": "http://localhost:9000",
-  "token": "MThlZWM0MTVkNjFiZmNiZjg1YmMwY2Q3YzRiNmNlY2FhYjE1NjY5Mzo=",
-  "project_name": "MRV.MariaRosa",
+  "token": "ZTZjNWVjYWY4ZWI5MTQzNzdiYWI5YTRhM2U4YTVhZjNmYWQ5ZDIwYTo=",
+  "project_name": "MRVObrasDevFvs",
   "template": "template.md",
   "metrics": "code_smells,bugs,vulnerabilities,coverage",
-  "output": "report.md"
+  "output": "report.md",
+  "smtp_server": "smtp.task.com.br",
+  "email_from": "lucas.veloso@dtidigital.com.br",
+  "email_from_password": "lucas002",
+  "email_to": "lmouraveloso@gmail.com"
 }
