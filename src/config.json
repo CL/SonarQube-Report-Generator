@@ -1,12 +1,12 @@
 {
   "url": "http://localhost:9000",
-  "token": "ZTZjNWVjYWY4ZWI5MTQzNzdiYWI5YTRhM2U4YTVhZjNmYWQ5ZDIwYTo=",
-  "project_name": "MRVObrasDevFvs",
+  "token": "token do sonar",
+  "project_name": "identificador do projeto no sonar",
   "template": "template.md",
   "metrics": "code_smells,bugs,vulnerabilities,coverage",
   "output": "report.md",
-  "smtp_server": "smtp.task.com.br",
-  "email_from": "lucas.veloso@dtidigital.com.br",
-  "email_from_password": "lucas002",
-  "email_to": "lmouraveloso@gmail.com"
+  "smtp_server": "servidor de smtp",
+  "email_from": "email de envio",
+  "email_from_password": "senha do email de envio",
+  "email_to": "lista de emails destinatários"
 }
