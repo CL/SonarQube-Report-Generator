@@ -44,3 +44,24 @@ Exemplo:
 O template pode ser qualquer arquivo de texto, os indicadores do Sonar devem estar escritos da seguinte forma `__nomeIndicador__` .
 Além dos indicadores é possível usar a tag para substituir o nome do projeto: `__project_name__`
 
+## Automatização
+
+A automatização pode ser melhorada com um arquivo `.bat` para rodar a análise do sonar e logo em seguida o código python para geração e envio do relatório por email.
+
+Exemplo:
+```
+@echo off
+set REPOS_PATH=E:\sonarqube\sonarqube-7.0\msbuild
+set SONNAR_SCANNER="%REPOS_PATH%\SonarQube.Scanner.MSBuild.exe"
+set MS_BUILD="C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\MSBuild.exe"
+
+cd "E:\local do projeto"
+%SONNAR_SCANNER% begin /k:"ChaveProjeto" /n:"Nome projeto" /v:"1.0" /d:sonar.cs.opencover.reportsPaths="%CD%\opencover.xml"
+%MS_BUILD% "Solution.sln" /t:Rebuild
+"%LOCALAPPDATA%\Apps\OpenCover\OpenCover.Console.exe" -output:"%CD%\opencover.xml" -register:user -target:"C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\CommonExtensions\Microsoft\TestWindow\vstest.console.exe" -targetargs:"Tests\MRV.Obras.Mobile.Domain.Tests\bin\Debug\MRV.Obras.Mobile.Domain.Tests.dll"
+%SONNAR_SCANNER% end
+
+C:
+cd C:\Users\lucas\Desktop\sonar\SonarQube-Report-Generator\src
+python generateReport.py
+```
