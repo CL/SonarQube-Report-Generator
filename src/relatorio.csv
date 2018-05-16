@@ -1,0 +1,526 @@
+TIPO,SEVERIDADE,DESCRICAO,ARQUIVO,LINHA(S)
+VULNERABILITY,MINOR,"Make this field 'private' and encapsulate it in a 'public' property.",Core/Data/ContextDb.cs,22
+VULNERABILITY,MINOR,"Make this field 'private' and encapsulate it in a 'public' property.",Core/ViewModels/MenuGroupItem.cs,9
+VULNERABILITY,MINOR,"Make this field 'private' and encapsulate it in a 'public' property.",Core/ViewModels/MenuGroupItem.cs,16
+VULNERABILITY,MINOR,"Make this field 'private' and encapsulate it in a 'public' property.",FVS/Dtos/CriarFVSInfoDto.cs,11
+VULNERABILITY,MINOR,"Make this field 'private' and encapsulate it in a 'public' property.",FVS/Dtos/CriarFVSInfoDto.cs,12
+VULNERABILITY,MINOR,"Make this field 'private' and encapsulate it in a 'public' property.",Controllers/ApiBaseController.cs,12
+VULNERABILITY,MINOR,"Make this field 'private' and encapsulate it in a 'public' property.",QrCode/AzureFileExplorerOperations.cs,34
+VULNERABILITY,MINOR,"Make this field 'private' and encapsulate it in a 'public' property.",QrCode/AzureFileExplorerOperations.cs,35
+VULNERABILITY,MINOR,"Make this field 'private' and encapsulate it in a 'public' property.",QrCode/FileExplorerOperations.cs,152
+VULNERABILITY,MINOR,"Make this field 'private' and encapsulate it in a 'public' property.",QrCode/FileExplorerOperations.cs,153
+VULNERABILITY,MINOR,"Make this field 'private' and encapsulate it in a 'public' property.",QrCode/FileExplorerOperations.cs,154
+VULNERABILITY,MINOR,"Make this field 'private' and encapsulate it in a 'public' property.",QrCode/FileExplorerOperations.cs,155
+VULNERABILITY,MINOR,"Make this field 'private' and encapsulate it in a 'public' property.",QrCode/FileExplorerOperations.cs,156
+VULNERABILITY,MINOR,"Make this field 'private' and encapsulate it in a 'public' property.",QrCode/FileExplorerOperations.cs,157
+VULNERABILITY,MINOR,"Use of debugger statements is forbidden",src/app/main/content/ordemServico/relatorios/consolidadorOS/consolidadorOS.component.ts,311
+VULNERABILITY,MINOR,"Use of debugger statements is forbidden",src/app/main/content/ordemServico/relatorios/consolidadorOS/consolidadorOS.component.ts,316
+VULNERABILITY,MINOR,"Use of debugger statements is forbidden",src/app/main/content/qrcode/file-explore/file-explore.component.ts,316
+VULNERABILITY,MINOR,"Use of debugger statements is forbidden",src/app/shared/base.service.ts,10
+BUG,MAJOR,"Return 'Task' instead.",Core/Bus/MessageBus.cs,22
+BUG,MAJOR,"Return 'Task' instead.",Core/Bus/MessageBus.cs,22
+BUG,MAJOR,"'auth' is null on at least one execution path.",Core/Interfaces/AuthenticatedHttpClientHandler.cs,95
+BUG,MAJOR,"'message' is null on at least one execution path.",Core/Queue/ProcessorReturnQueue.cs,85
+BUG,MAJOR,"Return 'Task' instead.",Core/ViewModels/ViewModelBase.cs,196
+BUG,MAJOR,"Return 'Task' instead.",Core/ViewModels/ViewModelBase.cs,203
+BUG,MAJOR,"'registros' is null on at least one execution path.",FVS/FVSRegistroAppService.cs,335
+BUG,MAJOR,"'registros' is null on at least one execution path.",FVS/FVSRegistroAppService.cs,359
+BUG,MAJOR,"Return 'Task' instead.",FVS/ViewModels/CriarFVSPageViewModel.cs,252
+BUG,MAJOR,"Return 'Task' instead.",FVS/ViewModels/CriarFVSPageViewModel.cs,261
+BUG,MAJOR,"Return 'Task' instead.",FVS/ViewModels/CriarFVSPageViewModel.cs,280
+BUG,MAJOR,"Return 'Task' instead.",FVS/ViewModels/CriarFVSPageViewModel.cs,298
+BUG,MAJOR,"Return 'Task' instead.",FVS/ViewModels/CriarFVSPageViewModel.cs,324
+BUG,MAJOR,"Return 'Task' instead.",FVS/ViewModels/CriarFVSPageViewModel.cs,388
+BUG,MAJOR,"Return 'Task' instead.",FVS/ViewModels/ExecutarFVSPageViewModel.cs,340
+BUG,MAJOR,"Return 'Task' instead.",FVS/ViewModels/HistoricoFVSPageViewModel.cs,84
+BUG,MAJOR,"Return 'Task' instead.",FVS/ViewModels/HistoricoFVSPageViewModel.cs,148
+BUG,MAJOR,"Return 'Task' instead.",FVS/ViewModels/HistoricoFVSPageViewModel.cs,161
+BUG,MAJOR,"Return 'Task' instead.",FVS/ViewModels/HistoricoFVSPageViewModel.cs,172
+BUG,MAJOR,"Return 'Task' instead.",FVS/ViewModels/PopupSairSemSalvarFVSViewModel.cs,29
+BUG,MAJOR,"Return 'Task' instead.",FVS/ViewModels/PopupSairSemSalvarFVSViewModel.cs,36
+BUG,MAJOR,"Return 'Task' instead.",FVS/ViewModels/ReprovarItemPageViewModel.cs,29
+BUG,MAJOR,"Return 'Task' instead.",FVS/ViewModels/SelecionarAptoHallPageViewModel.cs,119
+BUG,MAJOR,"Return 'Task' instead.",FVS/ViewModels/SelecionarAptoHallPageViewModel.cs,136
+BUG,MAJOR,"Return 'Task' instead.",FVS/ViewModels/SelecionarFVSPageViewModel.cs,78
+BUG,MAJOR,"Return 'Task' instead.",OrdemServico/ViewModels/AcompanhamentoAptoHallConclusaoQuantidadePageViewModel.cs,99
+BUG,MAJOR,"Return 'Task' instead.",OrdemServico/ViewModels/CadastroOSAptoHallPageViewModel.cs,50
+BUG,MAJOR,"Return 'Task' instead.",OrdemServico/ViewModels/OrdemServicoListaFiltradaPageViewModel.cs,55
+BUG,MAJOR,"Return 'Task' instead.",OrdemServico/ViewModels/OrdemServicoListaPageViewModel.cs,62
+BUG,MAJOR,"Return 'Task' instead.",Sincronizacao/ViewModels/SincronizacaoListaPageViewModel.cs,226
+BUG,MAJOR,"Return 'Task' instead.",Sincronizacao/ViewModels/SincronizacaoPageViewModel.cs,165
+BUG,MAJOR,"Either remove this useless object instantiation of class 'AggregateRootMap' or use it.",Mapping/Core/AtividadeMap.cs,34
+BUG,MAJOR,"Either remove this useless object instantiation of class 'AggregateRootMap' or use it.",Mapping/Core/ContratoItemMap.cs,27
+BUG,MAJOR,"Either remove this useless object instantiation of class 'AggregateRootMap' or use it.",Mapping/Core/ContratoMap.cs,30
+BUG,MAJOR,"Either remove this useless object instantiation of class 'AggregateRootMap' or use it.",Mapping/Core/DispositivoMap.cs,23
+BUG,MAJOR,"Either remove this useless object instantiation of class 'AggregateRootMap' or use it.",Mapping/Core/DispositivoUsuarioMap.cs,24
+BUG,MAJOR,"Either remove this useless object instantiation of class 'AggregateRootMap' or use it.",Mapping/Core/ElementoPepMap.cs,30
+BUG,MAJOR,"Either remove this useless object instantiation of class 'AggregateRootMap' or use it.",Mapping/Core/ElementoPepSuperiorMap.cs,32
+BUG,MAJOR,"Either remove this useless object instantiation of class 'AggregateRootMap' or use it.",Mapping/Core/FornecedorMap.cs,23
+BUG,MAJOR,"Either remove this useless object instantiation of class 'AggregateRootMap' or use it.",Mapping/Core/FuncionarioMap.cs,27
+BUG,MAJOR,"Either remove this useless object instantiation of class 'AggregateRootMap' or use it.",Mapping/Core/GrupoParametroMap.cs,23
+BUG,MAJOR,"Either remove this useless object instantiation of class 'AggregateRootMap' or use it.",Mapping/Core/ObraMap.cs,29
+BUG,MAJOR,"Either remove this useless object instantiation of class 'AggregateRootMap' or use it.",Mapping/Core/ObraUsuarioMap.cs,24
+BUG,MAJOR,"Either remove this useless object instantiation of class 'AggregateRootMap' or use it.",Mapping/Core/ProcessoFilaLogMap.cs,29
+BUG,MAJOR,"Either remove this useless object instantiation of class 'AggregateRootMap' or use it.",Mapping/Core/ServicoMap.cs,28
+BUG,MAJOR,"Either remove this useless object instantiation of class 'AggregateRootMap' or use it.",Mapping/Core/UnidadeMap.cs,27
+BUG,MAJOR,"Either remove this useless object instantiation of class 'AggregateRootMap' or use it.",Mapping/Core/UsuarioMap.cs,28
+BUG,MAJOR,"Either remove this useless object instantiation of class 'AggregateRootMap' or use it.",Mapping/OrdemServico/AcompanhamentoDiarioMap.cs,35
+BUG,MAJOR,"Either remove this useless object instantiation of class 'AggregateRootMap' or use it.",Mapping/OrdemServico/ConfiguracaoServicoApropriadoMap.cs,37
+BUG,MAJOR,"Either remove this useless object instantiation of class 'AggregateRootMap' or use it.",Mapping/OrdemServico/OrdemServicoMap.cs,52
+BUG,MAJOR,"Either remove this useless object instantiation of class 'AggregateRootMap' or use it.",Mapping/OrdemServico/OrdemServicoNumeracaoMap.cs,27
+CODE_SMELL,BLOCKER,"Either implement 'IDisposable.Dispose', or totally rename this method to prevent confusion.",Core/Insights/IProcessorInsightsQueue.cs,9
+CODE_SMELL,BLOCKER,"Either implement 'IDisposable.Dispose', or totally rename this method to prevent confusion.",Core/Queue/Interfaces/IProcessorMessageQueue.cs,9
+CODE_SMELL,BLOCKER,"Either implement 'IDisposable.Dispose', or totally rename this method to prevent confusion.",Core/Queue/Interfaces/IProcessorReturnQueue.cs,9
+CODE_SMELL,BLOCKER,"Add some tests to this class.",Login/LoginPage.cs,13
+CODE_SMELL,BLOCKER,"Either implement 'IDisposable.Dispose', or totally rename this method to prevent confusion.",UnitOfWork.cs,20
+CODE_SMELL,BLOCKER,"Either implement 'IDisposable.Dispose', or totally rename this method to prevent confusion.",UnitOfWork.cs,30
+CODE_SMELL,CRITICAL,"Remove this set, which updates a 'static' field from an instance method.",App.xaml.cs,65
+CODE_SMELL,CRITICAL,"Remove this set, which updates a 'static' field from an instance method.",App.xaml.cs,74
+CODE_SMELL,CRITICAL,"Refactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.",Core/Controls/ControleVisual/ControleVisual.xaml.cs,229
+CODE_SMELL,CRITICAL,"Refactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.",Core/Controls/ControleVisual/ControleVisual.xaml.cs,325
+CODE_SMELL,CRITICAL,"Rename parameter 'modulo' to 'instance' to match the interface declaration.",Core/Data/CentralDeNotificacaoRepository.cs,12
+CODE_SMELL,CRITICAL,"Rename parameter 'modulo' to 'instance' to match the interface declaration.",Core/Data/CentralDeNotificacaoRepository.cs,31
+CODE_SMELL,CRITICAL,"Rename parameter 'nomeAtividade' to 'descricaoAtividade' to match the interface declaration.",Core/Data/ElementoPepRepository.cs,16
+CODE_SMELL,CRITICAL,"Rename parameter 'item' to 'entity' to match the interface declaration.",Core/Data/ProcessoFilaRepository.cs,11
+CODE_SMELL,CRITICAL,"Use the default parameter value defined in the overridden method.",Core/Helpers/CustomPageNavigationService.cs,29
+CODE_SMELL,CRITICAL,"Use the default parameter value defined in the overridden method.",Core/Helpers/CustomPageNavigationService.cs,36
+CODE_SMELL,CRITICAL,"Use the default parameter value defined in the overridden method.",Core/Helpers/CustomPageNavigationService.cs,41
+CODE_SMELL,CRITICAL,"Rename parameter 'criterioMedicao' to 'criterioDeMedicao' to match the interface declaration.",Core/Insights/InsightsQueue.cs,35
+CODE_SMELL,CRITICAL,"Make the enclosing instance method 'static' or remove this set on the 'static' field.",Core/Services/MonitorSincronizacao.cs,90
+CODE_SMELL,CRITICAL,"Make the enclosing instance method 'static' or remove this set on the 'static' field.",Core/Services/MonitorSincronizacao.cs,91
+CODE_SMELL,CRITICAL,"Make the enclosing instance method 'static' or remove this set on the 'static' field.",Core/Services/MonitorSincronizacao.cs,96
+CODE_SMELL,CRITICAL,"Make the enclosing instance method 'static' or remove this set on the 'static' field.",Core/Services/MonitorSincronizacao.cs,225
+CODE_SMELL,CRITICAL,"Make the enclosing instance method 'static' or remove this set on the 'static' field.",Core/Services/MonitorSincronizacao.cs,228
+CODE_SMELL,CRITICAL,"Make the enclosing instance method 'static' or remove this set on the 'static' field.",Core/Services/MonitorSincronizacao.cs,231
+CODE_SMELL,CRITICAL,"Rename parameter 'nomeAtividade' to 'atividade' to match the interface declaration.",FVS/Data/FVSModelosRepository.cs,43
+CODE_SMELL,CRITICAL,"Rename parameter 'nomeAtividade' to 'atividade' to match the interface declaration.",FVS/Data/FVSModelosRepository.cs,52
+CODE_SMELL,CRITICAL,"Rename parameter 'registroFVS' to 'registro' to match the interface declaration.",FVS/Data/FVSRegistroRepository.cs,37
+CODE_SMELL,CRITICAL,"Refactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.",FVS/Data/FVSRegistroRepository.cs,37
+CODE_SMELL,CRITICAL,"Rename parameter 'RegistroFVSOut' to 'registro' to match the interface declaration.",FVS/Data/FVSRegistroRepository.cs,81
+CODE_SMELL,CRITICAL,"Refactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.",FVS/Data/FVSRegistroRepository.cs,93
+CODE_SMELL,CRITICAL,"Refactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.",FVS/Data/FVSRegistroRepository.cs,146
+CODE_SMELL,CRITICAL,"Refactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.",FVS/Data/FVSRegistroRepository.cs,247
+CODE_SMELL,CRITICAL,"Refactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.",FVS/Data/FVSRegistroRepository.cs,355
+CODE_SMELL,CRITICAL,"Change the visibility of 'CRIAR_FVS' or make it 'const' or 'readonly'.",FVS/Dtos/CriarFVSInfoDto.cs,11
+CODE_SMELL,CRITICAL,"Change the visibility of 'VISUALIZAR_FVS' or make it 'const' or 'readonly'.",FVS/Dtos/CriarFVSInfoDto.cs,12
+CODE_SMELL,CRITICAL,"Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",FVS/FVSModule.cs,42
+CODE_SMELL,CRITICAL,"Refactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.",FVS/Helpers/SelecionarAptoHallHelper.cs,14
+CODE_SMELL,CRITICAL,"Rename parameter 'bundle' to 'savedInstanceState' to match the base class declaration.",MainActivity.cs,85
+CODE_SMELL,CRITICAL,"Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",MainActivity.cs,152
+CODE_SMELL,CRITICAL,"Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",MainApplication.cs,37
+CODE_SMELL,CRITICAL,"Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",MainApplication.cs,41
+CODE_SMELL,CRITICAL,"Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",MainApplication.cs,50
+CODE_SMELL,CRITICAL,"Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",MainApplication.cs,59
+CODE_SMELL,CRITICAL,"Refactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.",OrdemServico/Controls/CalendarioOSView.xaml.cs,212
+CODE_SMELL,CRITICAL,"Refactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.",OrdemServico/Controls/CalendarioOSView.xaml.cs,323
+CODE_SMELL,CRITICAL,"Rename parameter 'IdOrdemServico' to 'idOrdemServico' to match the interface declaration.",OrdemServico/Data/AcompanhamentoDiarioRepository.cs,17
+CODE_SMELL,CRITICAL,"Rename parameter 'idUnidadesNaoConcluidas' to 'IdUnidadesNaoConcluidas' to match the interface declaration.",OrdemServico/Data/AcompanhamentoDiarioRepository.cs,151
+CODE_SMELL,CRITICAL,"Rename parameter 'entity' to 'ordemServico' to match the interface declaration.",OrdemServico/Data/OrdemServicoRepositoryLocal.cs,19
+CODE_SMELL,CRITICAL,"Refactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.",OrdemServico/Data/OrdemServicoRepositoryLocal.cs,19
+CODE_SMELL,CRITICAL,"Rename parameter 'idOrdemServico' to 'IdOrdemServico' to match the interface declaration.",OrdemServico/Data/OrdemServicoRepositoryReadOnly.cs,530
+CODE_SMELL,CRITICAL,"Rename parameter 'idOrdemServico' to 'IdOrdemServico' to match the interface declaration.",OrdemServico/Data/OrdemServicoRepositoryReadOnly.cs,593
+CODE_SMELL,CRITICAL,"Refactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.",OrdemServico/ViewModels/AcompanhamentoAptoHallPageViewModel.cs,553
+CODE_SMELL,CRITICAL,"Refactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.",OrdemServico/ViewModels/CadastroOSAptoHallPageViewModel.cs,50
+CODE_SMELL,CRITICAL,"Refactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.",OrdemServico/ViewModels/CadastroOSBaseViewModel.cs,401
+CODE_SMELL,CRITICAL,"Refactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.",OrdemServico/ViewModels/ControleVisualPredinhoPageViewModel.cs,256
+CODE_SMELL,CRITICAL,"Refactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.",OrdemServico/ViewModels/ControleVisualPredinhoPageViewModel.cs,461
+CODE_SMELL,CRITICAL,"Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",OrdemServico/ViewModels/OrdemServicoDetalhePageViewModel.cs,40
+CODE_SMELL,CRITICAL,"Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",Sincronizacao/SincronizacaoModule.cs,43
+CODE_SMELL,CRITICAL,"Refactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.",Sincronizacao/ViewModels/SincronizacaoListaPageViewModel.cs,177
+CODE_SMELL,CRITICAL,"Rename parameter 'bundle' to 'savedInstanceState' to match the base class declaration.",SplashActivity.cs,13
+CODE_SMELL,CRITICAL,"Rename parameter 'tableName' to 'table' to match the interface declaration.",Core/ConnectionStorage.cs,9
+CODE_SMELL,CRITICAL,"Rename parameter 'p' to 'node' to match the base class declaration.",Core/Specifications/Queries/SpecificationParameterRebinder.cs,19
+CODE_SMELL,CRITICAL,"Refactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.",FVS/FVSRegistroAppService.cs,88
+CODE_SMELL,CRITICAL,"Refactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.",FVS/FVSRegistroAppService.cs,130
+CODE_SMELL,CRITICAL,"Refactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.",FVS/Services/FVSRegistroService.cs,77
+CODE_SMELL,CRITICAL,"Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",Global.asax.cs,8
+CODE_SMELL,CRITICAL,"Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",Global.asax.cs,13
+CODE_SMELL,CRITICAL,"Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",Global.asax.cs,18
+CODE_SMELL,CRITICAL,"Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",Global.asax.cs,23
+CODE_SMELL,CRITICAL,"Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",Global.asax.cs,28
+CODE_SMELL,CRITICAL,"Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",Global.asax.cs,33
+CODE_SMELL,CRITICAL,"Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",Global.asax.cs,38
+CODE_SMELL,CRITICAL,"Refactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.",MRVObrasContext.cs,123
+CODE_SMELL,CRITICAL,"Remove the default parameter value to match the signature of overridden method.",OrdemServico/Services/OrdemServicoService.cs,165
+CODE_SMELL,CRITICAL,"Refactor this method to reduce its Cognitive Complexity from 35 to the 15 allowed.",OrdemServico/Services/OrdemServicoService.cs,199
+CODE_SMELL,CRITICAL,"Refactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.",OrdemServico/Services/OrdemServicoService.cs,312
+CODE_SMELL,CRITICAL,"Refactor this method to reduce its Cognitive Complexity from 31 to the 15 allowed.",OrdemServico/Services/OrdemServicoService.cs,367
+CODE_SMELL,CRITICAL,"Rename parameter 'IdObra' to 'idObra' to match the interface declaration.",OrdemServico/Services/OrdemServicoService.cs,618
+CODE_SMELL,CRITICAL,"Refactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.",QrCode/AzureFileExplorerOperations.cs,196
+CODE_SMELL,CRITICAL,"Refactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.",Repositories/CodigoAcessoTokenRepository.cs,22
+CODE_SMELL,CRITICAL,"Refactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.",Repositories/OrdemServicoReadOnlyRepository.cs,25
+CODE_SMELL,CRITICAL,"Refactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.",Repositories/OrdemServicoReadOnlyRepository.cs,133
+CODE_SMELL,CRITICAL,"Refactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.",Security/ADAuthorizationServerProvider.cs,27
+CODE_SMELL,CRITICAL,"Add a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.",Startup.cs,16
+CODE_SMELL,MAJOR,"Add a 'protected' constructor or the 'static' keyword to the class declaration.",Core/Bus/MessageBus.cs,12
+CODE_SMELL,MAJOR,"Add a 'protected' constructor or the 'static' keyword to the class declaration.",Core/Bus/MessageBus.cs,12
+CODE_SMELL,MAJOR,"Remove the unused private field 'topicClient'.",Core/Bus/MessageBus.cs,18
+CODE_SMELL,MAJOR,"Remove the unused private field 'topicClient'.",Core/Bus/MessageBus.cs,18
+CODE_SMELL,MAJOR,"Remove this commented out code.",Core/Bus/MessageBus.cs,28
+CODE_SMELL,MAJOR,"Remove this commented out code.",Core/Bus/MessageBus.cs,28
+CODE_SMELL,MAJOR,"Remove this commented out code.",Core/Bus/MessageBus.cs,49
+CODE_SMELL,MAJOR,"Remove this commented out code.",Core/Bus/MessageBus.cs,49
+CODE_SMELL,MAJOR,"Remove this commented out code.",Core/Bus/MessageBus.cs,63
+CODE_SMELL,MAJOR,"Remove this commented out code.",Core/Bus/MessageBus.cs,63
+CODE_SMELL,MAJOR,"Remove the unused private method 'RegisterOnMessageHandlerAndReceiveMessages'.",Core/Bus/MessageBus.cs,86 - 103
+CODE_SMELL,MAJOR,"Remove the unused private method 'RegisterOnMessageHandlerAndReceiveMessages'.",Core/Bus/MessageBus.cs,86 - 103
+CODE_SMELL,MAJOR,"Fix this implementation of 'IDisposable' to conform to the dispose pattern.",Core/Controls/FloatingDatePicker.xaml.cs,8
+CODE_SMELL,MAJOR,"Update this method so that its implementation is not identical to 'DatePicker_Unfocused'.",Core/Controls/FloatingDatePicker.xaml.cs,117
+CODE_SMELL,MAJOR,"Make '_container' 'readonly'.",Core/CoreModule.cs,164
+CODE_SMELL,MAJOR,"Change the visibility of this constructor to 'protected'.",Core/DataServices/BaseDataService.cs,13
+CODE_SMELL,MAJOR,"Change the visibility of this constructor to 'protected'.",Core/DataServices/BaseDataService.cs,13
+CODE_SMELL,MAJOR,"Remove this commented out code.",Core/DataServices/Mocks/AtividadeDataServiceMock.cs,14
+CODE_SMELL,MAJOR,"Remove this commented out code.",Core/DataServices/Mocks/AtividadeDataServiceMock.cs,14
+CODE_SMELL,MAJOR,"'System.Exception' should not be thrown by user code.",Core/DataServices/UsuarioDataService.cs,80
+CODE_SMELL,MAJOR,"'System.Exception' should not be thrown by user code.",Core/DataServices/UsuarioDataService.cs,80
+CODE_SMELL,MAJOR,"Remove this useless assignment to local variable 'usuario'.",Core/DataServices/UsuarioDataService.cs,102
+CODE_SMELL,MAJOR,"Remove this useless assignment to local variable 'usuario'.",Core/DataServices/UsuarioDataService.cs,102
+CODE_SMELL,MAJOR,"'System.Exception' should not be thrown by user code.",Core/DataServices/UsuarioDataService.cs,154
+CODE_SMELL,MAJOR,"'System.Exception' should not be thrown by user code.",Core/DataServices/UsuarioDataService.cs,154
+CODE_SMELL,MAJOR,"Extract this nested ternary operation into an independent statement.",Core/Extensions/DecimalExtension.cs,7
+CODE_SMELL,MAJOR,"Remove this commented out code.",Core/Helpers/DataBaseHelper.cs,41
+CODE_SMELL,MAJOR,"Add a 'protected' constructor or the 'static' keyword to the class declaration.",Core/Helpers/FileHelper.cs,7
+CODE_SMELL,MAJOR,"Add a 'protected' constructor or the 'static' keyword to the class declaration.",Core/Helpers/FileHelper.cs,7
+CODE_SMELL,MAJOR,"Add a 'protected' constructor or the 'static' keyword to the class declaration.",Core/Helpers/NavigationSettings.cs,3
+CODE_SMELL,MAJOR,"Remove this commented out code.",Core/Helpers/NavigationSettings.cs,6
+CODE_SMELL,MAJOR,"Make '_queue' 'readonly'.",Core/Insights/BlockingQueue.cs,13
+CODE_SMELL,MAJOR,"Add a 'protected' constructor or the 'static' keyword to the class declaration.",Core/Insights/InsightsConstants.cs,3
+CODE_SMELL,MAJOR,"Add a 'protected' constructor or the 'static' keyword to the class declaration.",Core/Insights/InsightsHelper.cs,7
+CODE_SMELL,MAJOR,"Make '_runningLock' 'readonly'.",Core/Insights/ProcessorInsightsQueue.cs,11
+CODE_SMELL,MAJOR,"Make '_queue' 'readonly'.",Core/Queue/BlockingQueue.cs,14
+CODE_SMELL,MAJOR,"Make '_runningLock' 'readonly'.",Core/Queue/ProcessorMessageQueue.cs,22
+CODE_SMELL,MAJOR,"Either remove or fill this block of code.",Core/Queue/ProcessorMessageQueue.cs,178
+CODE_SMELL,MAJOR,"Make '_runningLock' 'readonly'.",Core/Queue/ProcessorReturnQueue.cs,15
+CODE_SMELL,MAJOR,"Either remove or fill this block of code.",Core/Queue/ProcessorReturnQueue.cs,106
+CODE_SMELL,MAJOR,"Make '_cacheService' 'readonly'.",Core/Services/MonitorSincronizacao.cs,44
+CODE_SMELL,MAJOR,"Remove this assignment of '_parametroReadonlyRepository' or initialize it statically.",Core/Services/MonitorSincronizacao.cs,70
+CODE_SMELL,MAJOR,"Remove this assignment of '_eventAggregator' or initialize it statically.",Core/Services/MonitorSincronizacao.cs,72
+CODE_SMELL,MAJOR,"Merge this if statement with the enclosing one.",Core/Services/MonitorSincronizacao.cs,109
+CODE_SMELL,MAJOR,"Merge this if statement with the enclosing one.",Core/Services/MonitorSincronizacao.cs,124
+CODE_SMELL,MAJOR,"Remove this commented out code.",Core/Services/MonitorSincronizacao.cs,147
+CODE_SMELL,MAJOR,"Remove this commented out code.",Core/Services/MonitorSincronizacao.cs,152
+CODE_SMELL,MAJOR,"Either remove or fill this block of code.",Core/Services/MonitorSincronizacao.cs,205
+CODE_SMELL,MAJOR,"Rename 'connected' which hides the field with the same name.",Core/SignalR/UsuarioConectadoHub.cs,86
+CODE_SMELL,MAJOR,"Constructor has 10 parameters, which is greater than the 7 authorized.",Core/ViewModels/LoginPageViewModel.cs,61 - 71
+CODE_SMELL,MAJOR,"Constructor has 8 parameters, which is greater than the 7 authorized.",Core/ViewModels/MainMasterDetailPageViewModel.cs,65 - 73
+CODE_SMELL,MAJOR,"Remove this commented out code.",Core/ViewModels/MainMasterDetailPageViewModel.cs,98
+CODE_SMELL,MAJOR,"Remove this commented out code.",Core/ViewModels/MainMasterDetailPageViewModel.cs,133
+CODE_SMELL,MAJOR,"Remove the unused private property 'MonitorSincronizacao'.",Core/ViewModels/ViewModelBase.cs,63 - 69
+CODE_SMELL,MAJOR,"Use 'Count' property here instead.",FVS/Data/FVSRegistroRepository.cs,208
+CODE_SMELL,MAJOR,"Make '_fvsModelosRepository' 'readonly'.",FVS/FVSModelosAppService.cs,18
+CODE_SMELL,MAJOR,"Make '_formularioModeloGrupoRepository' 'readonly'.",FVS/FVSModelosAppService.cs,19
+CODE_SMELL,MAJOR,"Make '_formularioModeloItemRepository' 'readonly'.",FVS/FVSModelosAppService.cs,20
+CODE_SMELL,MAJOR,"Make '_formularioModeloItemOpcaoRepository' 'readonly'.",FVS/FVSModelosAppService.cs,21
+CODE_SMELL,MAJOR,"Constructor has 10 parameters, which is greater than the 7 authorized.",FVS/FVSRegistroAppService.cs,42 - 52
+CODE_SMELL,MAJOR,"'System.Exception' should not be thrown by user code.",FVS/FVSRegistroAppService.cs,343
+CODE_SMELL,MAJOR,"Make '_nomeBtnCriarVisualizar' 'readonly'.",FVS/ViewModels/CriarFVSPageViewModel.cs,28
+CODE_SMELL,MAJOR,"Remove the unused private field '_nomeBtnCriarVisualizar'.",FVS/ViewModels/CriarFVSPageViewModel.cs,28
+CODE_SMELL,MAJOR,"Merge this if statement with the enclosing one.",FVS/ViewModels/CriarFVSPageViewModel.cs,155
+CODE_SMELL,MAJOR,"Extract this nested ternary operation into an independent statement.",FVS/ViewModels/CriarFVSPageViewModel.cs,435
+CODE_SMELL,MAJOR,"Remove the unused private method 'CliqueAprovadoConcessao'.",FVS/ViewModels/ExecutarFVSPageViewModel.cs,310 - 313
+CODE_SMELL,MAJOR,"Remove this commented out code.",Helpers/Settings.cs,3
+CODE_SMELL,MAJOR,"Remove the unused private method 'HockeyApp_Init'.",MainActivity.cs,121 - 136
+CODE_SMELL,MAJOR,"Remove this commented out code.",Mapping/FVS/FormularioRegistroItemReprovacaoMap.cs,27
+CODE_SMELL,MAJOR,"Constructor has 12 parameters, which is greater than the 7 authorized.",OrdemServico/AcompanhamentoDiarioAppService.cs,45 - 56
+CODE_SMELL,MAJOR,"Remove this commented out code.",OrdemServico/AcompanhamentoDiarioAppService.cs,340
+CODE_SMELL,MAJOR,"Remove the unused private field 'TABLE_SERVICO_APROPRIADO'.",OrdemServico/Data/ConfiguracaoServicoApropriadoRepository.cs,13
+CODE_SMELL,MAJOR,"Remove the unused private set accessor in property 'Quantidade'.",OrdemServico/Data/ConfiguracaoServicoApropriadoRepositoryReadOnly.cs,12
+CODE_SMELL,MAJOR,"Remove the unused private set accessor in property 'CentroLogistico'.",OrdemServico/Data/OrdemServicoNumeracaoRepository.cs,18
+CODE_SMELL,MAJOR,"Merge this if statement with the enclosing one.",OrdemServico/Data/OrdemServicoRepository.cs,160
+CODE_SMELL,MAJOR,"Remove the unused private set accessor in property 'Realizado'.",OrdemServico/Data/OrdemServicoRepositoryReadOnly.cs,16
+CODE_SMELL,MAJOR,"Return an empty collection instead of null.",OrdemServico/Profiles/OrdemServicoAdicionarInFuncionarioResolver.cs,13
+CODE_SMELL,MAJOR,"Return an empty collection instead of null.",OrdemServico/Profiles/OrdemServicoAdicionarInUnidadeResolver.cs,13
+CODE_SMELL,MAJOR,"Return an empty collection instead of null.",OrdemServico/Profiles/OrdemServicoAlterarInFuncionarioResolver.cs,13
+CODE_SMELL,MAJOR,"Extract this nested ternary operation into an independent statement.",OrdemServico/ViewModels/AcompanhamentoAptoHallConclusaoQuantidadePageViewModel.cs,195
+CODE_SMELL,MAJOR,"Remove this commented out code.",OrdemServico/ViewModels/AcompanhamentoViewModelBase.cs,67
+CODE_SMELL,MAJOR,"Constructor has 11 parameters, which is greater than the 7 authorized.",OrdemServico/ViewModels/CadastroOSBaseViewModel.cs,249 - 260
+CODE_SMELL,MAJOR,"Extract the assignment of 'IdOrdemServico' from this expression.",OrdemServico/ViewModels/CadastroOSBaseViewModel.cs,410
+CODE_SMELL,MAJOR,"Extract the assignment of 'IdOrdemServico' from this expression.",OrdemServico/ViewModels/CadastroOSBaseViewModel.cs,410
+CODE_SMELL,MAJOR,"Constructor has 9 parameters, which is greater than the 7 authorized.",OrdemServico/ViewModels/ControleVisualPredinhoPageViewModel.cs,151 - 160
+CODE_SMELL,MAJOR,"Extract this nested ternary operation into an independent statement.",OrdemServico/ViewModels/OrdemServicoListaFiltradaPageViewModel.cs,81
+CODE_SMELL,MAJOR,"Remove the unused private method 'GetCurrentPage'.",OrdemServico/Views/ControleVisualTabbedPage.xaml.cs,26 - 33
+CODE_SMELL,MAJOR,"Remove this commented out code.",Renderers/EntryNoLineDecimalRenderer.cs,25
+CODE_SMELL,MAJOR,"Make 'paint' 'readonly'.",Renderers/FrameRoundedRenderer.cs,13
+CODE_SMELL,MAJOR,"Make '_cacheService' 'readonly'.",Sincronizacao/SincronizacaoAppService.cs,69
+CODE_SMELL,MAJOR,"Constructor has 23 parameters, which is greater than the 7 authorized.",Sincronizacao/SincronizacaoAppService.cs,73 - 100
+CODE_SMELL,MAJOR,"Remove the unused private field 'SQL_DELETE_ORDEMSERVICOFUNCIONARIO'.",Sincronizacao/SincronizacaoRepository.cs,19
+CODE_SMELL,MAJOR,"Remove the unused private field 'SQL_DELETE_ORDEMSERVICOUNIDADE'.",Sincronizacao/SincronizacaoRepository.cs,20
+CODE_SMELL,MAJOR,"Remove the unused private field 'SQL_DELETE_ACOMPANHAMENTODIARIO'.",Sincronizacao/SincronizacaoRepository.cs,21
+CODE_SMELL,MAJOR,"Remove the unused private field 'SQL_DELETE_ACOMPANHAMENTODIARIO_UNIDADE'.",Sincronizacao/SincronizacaoRepository.cs,22
+CODE_SMELL,MAJOR,"'System.Exception' should not be thrown by user code.",Sincronizacao/SincronizacaoRepository.cs,229
+CODE_SMELL,MAJOR,"'System.Exception' should not be thrown by user code.",Sincronizacao/SincronizacaoRepository.cs,243
+CODE_SMELL,MAJOR,"Drop 'Where' and move the condition into the 'Count'.",Sincronizacao/ViewModels/SincronizacaoListaPageViewModel.cs,60
+CODE_SMELL,MAJOR,"Drop 'Where' and move the condition into the 'Count'.",Sincronizacao/ViewModels/SincronizacaoListaPageViewModel.cs,120
+CODE_SMELL,MAJOR,"Merge this if statement with the enclosing one.",Sincronizacao/ViewModels/SincronizacaoListaPageViewModel.cs,191
+CODE_SMELL,MAJOR,"Drop 'Where' and move the condition into the 'Count'.",Sincronizacao/ViewModels/SincronizacaoListaPageViewModel.cs,233
+CODE_SMELL,MAJOR,"Either merge this case with the identical one on line 93 or change one of the implementations.",Sincronizacao/ViewModels/SincronizacaoPageViewModel.cs,110 - 146
+CODE_SMELL,MAJOR,"Add a 'protected' constructor or the 'static' keyword to the class declaration.",AppInitializer.cs,5
+CODE_SMELL,MAJOR,"Add a 'protected' constructor or the 'static' keyword to the class declaration.",AppSettings.cs,3
+CODE_SMELL,MAJOR,"Add a 'protected' constructor or the 'static' keyword to the class declaration.",App_Start/SwaggerConfig.cs,11
+CODE_SMELL,MAJOR,"Add a 'protected' constructor or the 'static' keyword to the class declaration.",BootStrapper.cs,40
+CODE_SMELL,MAJOR,"Remove this commented out code.",BootStrapper.cs,45
+CODE_SMELL,MAJOR,"Extract this nested ternary operation into an independent statement.",Controllers/ApiBaseController.cs,23
+CODE_SMELL,MAJOR,"'System.ApplicationException' should not be thrown by user code.",Controllers/QrCodeFileExplorerController.cs,139
+CODE_SMELL,MAJOR,"Drop 'Where' and move the condition into the 'FirstOrDefault'.",Core/BaseTest.cs,41
+CODE_SMELL,MAJOR,"The parameter name 'TypeName object MessageBus not null or empty' is not declared in the argument list.",Core/Bus/MessageHandlerProcessor.cs,21
+CODE_SMELL,MAJOR,"Remove this commented out code.",Core/BusAppService.cs,21
+CODE_SMELL,MAJOR,"Fix this implementation of 'IDisposable' to conform to the dispose pattern.",Core/ConnectionFactory.cs,7
+CODE_SMELL,MAJOR,"Remove this commented out code.",Core/ConnectionFactory.cs,42
+CODE_SMELL,MAJOR,"Remove this commented out code.",Core/ConnectionFactory.cs,53
+CODE_SMELL,MAJOR,"Fix this implementation of 'IDisposable' to conform to the dispose pattern.",Core/Handlers/DomainNotificationHandler.cs,8
+CODE_SMELL,MAJOR,"Change the visibility of this constructor to 'protected'.",Core/PagingInputDto.cs,9
+CODE_SMELL,MAJOR,"Add a 'protected' constructor or the 'static' keyword to the class declaration.",Core/ReportConstants.cs,7
+CODE_SMELL,MAJOR,"Make '_testDomainHandler' 'readonly'.",Core/TestDomainEventContainer.cs,13
+CODE_SMELL,MAJOR,"Fix this implementation of 'IDisposable' to conform to the dispose pattern.",Core/TestHandler.cs,11
+CODE_SMELL,MAJOR,"Make '_notifications' 'readonly'.",Core/TestHandler.cs,13
+CODE_SMELL,MAJOR,"Method has 8 parameters, which is greater than the 7 authorized.",Entities/OrdemServicoTimeLine.cs,19 - 20
+CODE_SMELL,MAJOR,"Remove this commented out code.",FVS/FVSRegistroServiceTest.cs,95
+CODE_SMELL,MAJOR,"Update this method so that its implementation is not identical to 'TestarFVSRegistradaInexistente_AtualizarRegistroFVS'.",FVS/FVSRegistroServiceTest.cs,112
+CODE_SMELL,MAJOR,"Add a 'protected' constructor or the 'static' keyword to the class declaration.",Helpers/PerfisMrvFramework.cs,9
+CODE_SMELL,MAJOR,"Make 'app' 'readonly'.",Login/LoginPage.cs,15
+CODE_SMELL,MAJOR,"Remove the unused private field 'platform'.",Login/LoginPage.cs,16
+CODE_SMELL,MAJOR,"Merge this if statement with the enclosing one.",MRVObrasContext.cs,144
+CODE_SMELL,MAJOR,"Remove this commented out code.",Mapping/FVS/FormularioRegistroItemReprovacaoMap.cs,19
+CODE_SMELL,MAJOR,"Remove this commented out code.",MessageListener.cs,11
+CODE_SMELL,MAJOR,"Remove this commented out code.",MessageListener.cs,17
+CODE_SMELL,MAJOR,"Remove this commented out code.",MessageListener.cs,49
+CODE_SMELL,MAJOR,"Remove this commented out code.",OrdemServico/Bus/OrdemServicoCriacaoMessageHandler.cs,30
+CODE_SMELL,MAJOR,"Make 'platform' 'readonly'.",OrdemServico/CriarOrdemServicoASC.cs,16
+CODE_SMELL,MAJOR,"Remove this commented out code.",OrdemServico/CriarOrdemServicoASC.cs,60
+CODE_SMELL,MAJOR,"Make 'platform' 'readonly'.",OrdemServico/CriarOrdemServicoApto.cs,16
+CODE_SMELL,MAJOR,"Remove this commented out code.",OrdemServico/CriarOrdemServicoApto.cs,45
+CODE_SMELL,MAJOR,"Remove this commented out code.",OrdemServico/CriarOrdemServicoApto.cs,53
+CODE_SMELL,MAJOR,"Make 'platform' 'readonly'.",OrdemServico/CriarOrdemServicoBloco.cs,16
+CODE_SMELL,MAJOR,"Make 'platform' 'readonly'.",OrdemServico/CriarOrdemServicoHall.cs,16
+CODE_SMELL,MAJOR,"Remove this commented out code.",OrdemServico/CriarOrdemServicoHall.cs,45
+CODE_SMELL,MAJOR,"Method has 9 parameters, which is greater than the 7 authorized.",OrdemServico/Factories/AcompanhamentoDiarioFactory.cs,12 - 21
+CODE_SMELL,MAJOR,"Remove this useless assignment to local variable 'Id'.",OrdemServico/Factories/AcompanhamentoDiarioFactory.cs,25
+CODE_SMELL,MAJOR,"Method has 17 parameters, which is greater than the 7 authorized.",OrdemServico/Factories/OrdemServicoFactory.cs,11 - 27
+CODE_SMELL,MAJOR,"Remove the unused private method 'ValidarAlteracaoAcompanhamentoDiario'.",OrdemServico/Services/AcompanhamentoDiarioService.cs,58 - 71
+CODE_SMELL,MAJOR,"Constructor has 10 parameters, which is greater than the 7 authorized.",OrdemServico/Services/OrdemServicoService.cs,40 - 49
+CODE_SMELL,MAJOR,"Make '_nome' 'readonly'.",OrdemServico/Specifications/Queries/OrdemServiceContemNomeSpec.cs,11
+CODE_SMELL,MAJOR,"Update this method so that its implementation is not identical to 'ValidarCriterioMedicaoAsc'.",OrdemServico/Validations/OrdemServicoValidation.cs,37
+CODE_SMELL,MAJOR,"Add a 'protected' constructor or the 'static' keyword to the class declaration.",Program.cs,13
+CODE_SMELL,MAJOR,"Update this implementation of 'ISerializable' to conform to the recommended serialization pattern.",QrCode/AcessoNegadoException.cs,8
+CODE_SMELL,MAJOR,"Make 'Items' 'readonly'.",QrCode/AzureFileExplorerOperations.cs,33
+CODE_SMELL,MAJOR,"Add an explanation.",QrCode/AzureFileExplorerOperations.cs,92
+CODE_SMELL,MAJOR,"Add an explanation.",QrCode/AzureFileExplorerOperations.cs,129
+CODE_SMELL,MAJOR,"Add an explanation.",QrCode/AzureFileExplorerOperations.cs,139
+CODE_SMELL,MAJOR,"Add an explanation.",QrCode/AzureFileExplorerOperations.cs,150
+CODE_SMELL,MAJOR,"Add an explanation.",QrCode/AzureFileExplorerOperations.cs,161
+CODE_SMELL,MAJOR,"Update this implementation of 'ISerializable' to conform to the recommended serialization pattern.",QrCode/ExtensaoNaoPermitidaException.cs,5
+CODE_SMELL,MAJOR,"Update this implementation of 'ISerializable' to conform to the recommended serialization pattern.",QrCode/ExtensaoNaoPermitidaException.cs,13
+CODE_SMELL,MAJOR,"'System.Exception' should not be thrown by user code.",QrCode/QrCodeAppService.cs,41
+CODE_SMELL,MAJOR,"'System.Exception' should not be thrown by user code.",QrCode/QrCodeAppService.cs,44
+CODE_SMELL,MAJOR,"'System.Exception' should not be thrown by user code.",QrCode/QrCodeAppService.cs,47
+CODE_SMELL,MAJOR,"'System.Exception' should not be thrown by user code.",QrCode/QrCodeAppService.cs,50
+CODE_SMELL,MAJOR,"'System.Exception' should not be thrown by user code.",QrCode/QrCodeAppService.cs,53
+CODE_SMELL,MAJOR,"Add a 'protected' constructor or the 'static' keyword to the class declaration.",QrCode/VrCodeServiceBus.cs,14
+CODE_SMELL,MAJOR,"Change the visibility of this constructor to 'protected'.",Repositories/BaseStorageRepository.cs,7
+CODE_SMELL,MAJOR,"Remove the unused private method 'VincularCodigoAcesso'.",Repositories/CodigoAcessoRepository.cs,115 - 124
+CODE_SMELL,MAJOR,"Extract this nested ternary operation into an independent statement.",Repositories/DispositivoUsuarioRepository.cs,66 - 67
+CODE_SMELL,MAJOR,"'System.Exception' should not be thrown by user code.",Repositories/OrdemServicoRepository.cs,59
+CODE_SMELL,MAJOR,"'System.Exception' should not be thrown by user code.",Repositories/OrdemServicoRepository.cs,127
+CODE_SMELL,MAJOR,"Update this method so that its implementation is not identical to 'ObterContainerSasTokenEdicao'.",Repositories/QrCodeRepository.cs,71
+CODE_SMELL,MAJOR,"'System.Exception' should not be thrown by user code.",Repositories/QrCodeRepository.cs,81
+CODE_SMELL,MAJOR,"Remove this useless assignment to local variable 'imagemBytes'.",Services/QrCodeReportService.cs,56
+CODE_SMELL,MAJOR,"Remove this commented out code.",SimpleInjectorInitializer.cs,32
+CODE_SMELL,MAJOR,"Remove this commented out code.",SimpleInjectorInitializer.cs,36
+CODE_SMELL,MAJOR,"Method has 8 parameters, which is greater than the 7 authorized.",Storage/Repositories/IOrdemServicoTimeLineRepository.cs,7 - 8
+CODE_SMELL,MAJOR,"Remove this useless assignment to local variable "data".",src/app/main/content/ordemServico/relatorios/consolidadorOS/consolidadorOS.component.ts,324
+CODE_SMELL,MAJOR,"Remove this useless assignment to local variable "data".",src/app/main/content/ordemServico/relatorios/consolidadorOS/consolidadorOS.component.ts,338
+CODE_SMELL,MAJOR,"Update this function so that its implementation is not identical to the one on line 327.",src/app/main/content/ordemServico/relatorios/consolidadorOS/consolidadorOS.component.ts,341
+CODE_SMELL,MAJOR,"Remove this useless assignment to local variable "usuario".",src/app/main/content/ordemServico/services/ordemServico.service.ts,33
+CODE_SMELL,MAJOR,"Update this function so that its implementation is not identical to the one on line 42.",src/app/main/content/ordemServico/services/ordemServico.service.ts,66
+CODE_SMELL,MAJOR,"Update this function so that its implementation is not identical to the one on line 44.",src/app/main/content/ordemServico/services/ordemServico.service.ts,68
+CODE_SMELL,MAJOR,"Update this function so that its implementation is not identical to the one on line 42.",src/app/main/content/ordemServico/services/ordemServico.service.ts,94
+CODE_SMELL,MAJOR,"Update this function so that its implementation is not identical to the one on line 44.",src/app/main/content/ordemServico/services/ordemServico.service.ts,96
+CODE_SMELL,MAJOR,"Update this function so that its implementation is not identical to the one on line 29.",src/app/main/content/qrcode/qrcode.service.ts,59
+CODE_SMELL,MAJOR,"Update this function so that its implementation is not identical to the one on line 31.",src/app/main/content/qrcode/qrcode.service.ts,61
+CODE_SMELL,MAJOR,"Remove this useless assignment to local variable "usuario".",src/app/main/core/obra/obra.service.ts,23
+CODE_SMELL,MAJOR,"Remove this useless assignment to local variable "modelStateErrors".",src/app/shared/base.service.ts,42
+CODE_SMELL,MAJOR,"Remove this useless assignment to local variable "offsetSeconds".",src/app/shared/user.service.ts,82
+CODE_SMELL,MINOR,"Remove unassigned field 'subscriptionClient', or set its value.",Core/Bus/MessageBus.cs,19
+CODE_SMELL,MINOR,"Remove unassigned field 'subscriptionClient', or set its value.",Core/Bus/MessageBus.cs,19
+CODE_SMELL,MINOR,"Remove the 'messageReceiver' field and declare it as a local variable in the relevant methods.",Core/Bus/MessageBus.cs,20
+CODE_SMELL,MINOR,"Remove the 'messageReceiver' field and declare it as a local variable in the relevant methods.",Core/Bus/MessageBus.cs,20
+CODE_SMELL,MINOR,"Rename class 'DateTimeToStringFormatDDMMYYYY' to match camel case naming rules, consider using 'DateTimeToStringFormatDdmmyyyy'.",Core/Converters/DateTimeToStringFormatDDMMYYYY.cs,7
+CODE_SMELL,MINOR,"Remove the '_cache' field and declare it as a local variable in the relevant methods.",Core/DataServices/BaseDataService.cs,11
+CODE_SMELL,MINOR,"Remove the '_cache' field and declare it as a local variable in the relevant methods.",Core/DataServices/BaseDataService.cs,11
+CODE_SMELL,MINOR,"Remove the '_cache' field and declare it as a local variable in the relevant methods.",Core/DataServices/UsuarioDataService.cs,27
+CODE_SMELL,MINOR,"Remove the '_cache' field and declare it as a local variable in the relevant methods.",Core/DataServices/UsuarioDataService.cs,27
+CODE_SMELL,MINOR,"Remove this unused 'usuario' local variable.",Core/DataServices/UsuarioDataService.cs,69
+CODE_SMELL,MINOR,"Remove this unused 'usuario' local variable.",Core/DataServices/UsuarioDataService.cs,69
+CODE_SMELL,MINOR,"Remove this empty namespace.",Core/Enums/Enumeradores.cs,1 - 8
+CODE_SMELL,MINOR,"Remove the '_navigationService' field and declare it as a local variable in the relevant methods.",Core/Helpers/CustomPageNavigationService.cs,15
+CODE_SMELL,MINOR,"Refactor your code not to use hardcoded absolute paths or URIs.",Core/Helpers/NavigationSettings.cs,6
+CODE_SMELL,MINOR,"Rename this enumeration to remove the 'Enum' suffix.",Core/Interfaces/ICacheService.cs,3
+CODE_SMELL,MINOR,"Remove the '_producerReturnQueue' field and declare it as a local variable in the relevant methods.",Core/Queue/ProcessorMessageQueue.cs,27
+CODE_SMELL,MINOR,"Remove the '_ordemServicoRepository' field and declare it as a local variable in the relevant methods.",Core/Queue/ProcessorMessageQueue.cs,28
+CODE_SMELL,MINOR,"Remove the '_centralDeNotificacaoRepository' field and declare it as a local variable in the relevant methods.",Core/Queue/ProcessorMessageQueue.cs,29
+CODE_SMELL,MINOR,"Rename this enumeration to remove the 'Enum' suffix.",Core/Services/MonitorSincronizacao.cs,20
+CODE_SMELL,MINOR,"Remove this empty statement.",Core/Services/MonitorSincronizacao.cs,69
+CODE_SMELL,MINOR,"Remove this empty statement.",Core/Services/MonitorSincronizacao.cs,91
+CODE_SMELL,MINOR,"Change return type to 'void'; not a single caller uses the returned value.",Core/Services/MonitorSincronizacao.cs,120
+CODE_SMELL,MINOR,"Remove the 'Connection' field and declare it as a local variable in the relevant methods.",Core/SignalR/UsuarioConectadoHub.cs,35
+CODE_SMELL,MINOR,"Remove the 'Hub' field and declare it as a local variable in the relevant methods.",Core/SignalR/UsuarioConectadoHub.cs,36
+CODE_SMELL,MINOR,"Remove the '_secureStorage' field and declare it as a local variable in the relevant methods.",Core/ViewModels/LoginPageViewModel.cs,29
+CODE_SMELL,MINOR,"Remove this empty statement.",Core/ViewModels/LoginPageViewModel.cs,128
+CODE_SMELL,MINOR,"Remove the '_producerQueue' field and declare it as a local variable in the relevant methods.",Core/ViewModels/MainMasterDetailPageViewModel.cs,30
+CODE_SMELL,MINOR,"Remove the 'TimeEnd' field and declare it as a local variable in the relevant methods.",Core/ViewModels/ViewModelBase.cs,28
+CODE_SMELL,MINOR,"'PopupPageCustom' implements 'INotifyPropertyChanged' so 'INotifyPropertyChanged' can be removed from the inheritance list.",Core/Views/InformarDataPopupPage.xaml.cs,9
+CODE_SMELL,MINOR,"'PopupPageCustom' implements 'INotifyPropertyChanged' so 'INotifyPropertyChanged' can be removed from the inheritance list.",Core/Views/NotificacaoDetalhePopupPage.xaml.cs,15
+CODE_SMELL,MINOR,"'PopupPageCustom' implements 'INotifyPropertyChanged' so 'INotifyPropertyChanged' can be removed from the inheritance list.",Core/Views/PopupHockeyApp.xaml.cs,11
+CODE_SMELL,MINOR,"Rename class 'FVSModelosRepository' to match camel case naming rules, consider using 'FvsModelosRepository'.",FVS/Data/FVSModelosRepository.cs,14
+CODE_SMELL,MINOR,"Rename class 'FVSProcessoReadonlyRepository' to match camel case naming rules, consider using 'FvsProcessoReadonlyRepository'.",FVS/Data/FVSProcessoReadonlyRepository.cs,9
+CODE_SMELL,MINOR,"Rename class 'FVSRegistroRepository' to match camel case naming rules, consider using 'FvsRegistroRepository'.",FVS/Data/FVSRegistroRepository.cs,21
+CODE_SMELL,MINOR,"Use '.Any()' to test whether this 'IEnumerable<System.Guid>' is empty or not.",FVS/Data/FVSRegistroRepository.cs,208
+CODE_SMELL,MINOR,"Rename class 'RegistroFVSUnidadeRepository' to match camel case naming rules, consider using 'RegistroFvsUnidadeRepository'.",FVS/Data/RegistroFVSUnidadeRepository.cs,14
+CODE_SMELL,MINOR,"Rename class 'FVSModelosDataService' to match camel case naming rules, consider using 'FvsModelosDataService'.",FVS/DataServices/FVSModelosDataService.cs,20
+CODE_SMELL,MINOR,"Rename class 'FVSRegistroDataService' to match camel case naming rules, consider using 'FvsRegistroDataService'.",FVS/DataServices/FVSRegistroDataService.cs,25
+CODE_SMELL,MINOR,"Rename class 'AcompanhamentoFVSCardDto' to match camel case naming rules, consider using 'AcompanhamentoFvsCardDto'.",FVS/Dtos/AcompanhamentoFVSCardDto.cs,9
+CODE_SMELL,MINOR,"Rename class 'ApartamentoHallFVSDto' to match camel case naming rules, consider using 'ApartamentoHallFvsDto'.",FVS/Dtos/ApartamentoHallFVSDto.cs,10
+CODE_SMELL,MINOR,"Rename class 'CriarFVSInfoDto' to match camel case naming rules, consider using 'CriarFvsInfoDto'.",FVS/Dtos/CriarFVSInfoDto.cs,9
+CODE_SMELL,MINOR,"Rename class 'CriarFVSRequisitosDto' to match camel case naming rules, consider using 'CriarFvsRequisitosDto'.",FVS/Dtos/CriarFVSRequisitosDto.cs,7
+CODE_SMELL,MINOR,"Rename class 'HeaderExecutarFVSDto' to match camel case naming rules, consider using 'HeaderExecutarFvsDto'.",FVS/Dtos/HeaderExecutarFVSDto.cs,8
+CODE_SMELL,MINOR,"Rename class 'HeaderTemplateFVS' to match camel case naming rules, consider using 'HeaderTemplateFvs'.",FVS/Dtos/HeaderTemplateFVS.cs,8
+CODE_SMELL,MINOR,"Rename class 'ItemFVSCardDto' to match camel case naming rules, consider using 'ItemFvsCardDto'.",FVS/Dtos/ItemFVSCardDto.cs,10
+CODE_SMELL,MINOR,"Rename class 'SelecionarFVSCardDto' to match camel case naming rules, consider using 'SelecionarFvsCardDto'.",FVS/Dtos/SelecionarFVSCardDto.cs,9
+CODE_SMELL,MINOR,"Rename class 'FVSModelosAppService' to match camel case naming rules, consider using 'FvsModelosAppService'.",FVS/FVSModelosAppService.cs,14
+CODE_SMELL,MINOR,"Rename class 'FVSModule' to match camel case naming rules, consider using 'FvsModule'.",FVS/FVSModule.cs,20
+CODE_SMELL,MINOR,"Rename class 'FVSRegistroAppService' to match camel case naming rules, consider using 'FvsRegistroAppService'.",FVS/FVSRegistroAppService.cs,27
+CODE_SMELL,MINOR,"Rename class 'CriarFVSInfoHelper' to match camel case naming rules, consider using 'CriarFvsInfoHelper'.",FVS/Helpers/CriarFVSInfoHelper.cs,13
+CODE_SMELL,MINOR,"Use '.Any()' to test whether this 'IEnumerable<char>' is empty or not.",FVS/Helpers/CriarFVSInfoHelper.cs,189
+CODE_SMELL,MINOR,"Use '.Any()' to test whether this 'IEnumerable<char>' is empty or not.",FVS/Helpers/CriarFVSInfoHelper.cs,189
+CODE_SMELL,MINOR,"Use '.Any()' to test whether this 'IEnumerable<char>' is empty or not.",FVS/Helpers/CriarFVSInfoHelper.cs,191
+CODE_SMELL,MINOR,"Use '.Any()' to test whether this 'IEnumerable<char>' is empty or not.",FVS/Helpers/CriarFVSInfoHelper.cs,193
+CODE_SMELL,MINOR,"Rename class 'PopupSairSemSalvarFVSHelper' to match camel case naming rules, consider using 'PopupSairSemSalvarFvsHelper'.",FVS/Helpers/PopupSairSemSalvarFVSHelper.cs,11
+CODE_SMELL,MINOR,"Rename interface 'IFVSModelosDataService' to match camel case naming rules, consider using 'IFvsModelosDataService'.",FVS/IFVSModelosDataService.cs,10
+CODE_SMELL,MINOR,"Rename interface 'IFVSModelosRefit' to match camel case naming rules, consider using 'IFvsModelosRefit'.",FVS/IFVSModelosRefit.cs,11
+CODE_SMELL,MINOR,"Rename interface 'IFVSRegistroDataService' to match camel case naming rules, consider using 'IFvsRegistroDataService'.",FVS/IFVSRegistroDataService.cs,12
+CODE_SMELL,MINOR,"Rename interface 'IRegistroFVSDataService' to match camel case naming rules, consider using 'IRegistroFvsDataService'.",FVS/IRegistroFVSDataService.cs,9
+CODE_SMELL,MINOR,"Rename interface 'IRegistroFVSRefit' to match camel case naming rules, consider using 'IRegistroFvsRefit'.",FVS/IRegistroFVSRefit.cs,13
+CODE_SMELL,MINOR,"Rename interface 'IFVSModelosAppService' to match camel case naming rules, consider using 'IFvsModelosAppService'.",FVS/Interfaces/IFVSModelosAppService.cs,10
+CODE_SMELL,MINOR,"Rename interface 'IFVSModelosRepository' to match camel case naming rules, consider using 'IFvsModelosRepository'.",FVS/Interfaces/IFVSModelosRepository.cs,8
+CODE_SMELL,MINOR,"Rename interface 'IFVSRegistroAppService' to match camel case naming rules, consider using 'IFvsRegistroAppService'.",FVS/Interfaces/IFVSRegistroAppService.cs,11
+CODE_SMELL,MINOR,"Rename interface 'IFVSRegistroOutRepository' to match camel case naming rules, consider using 'IFvsRegistroOutRepository'.",FVS/Interfaces/IFVSRegistroOutRepository.cs,9
+CODE_SMELL,MINOR,"Rename interface 'IRegistroFVSUnidadeRepository' to match camel case naming rules, consider using 'IRegistroFvsUnidadeRepository'.",FVS/Interfaces/IRegistroFVSUnidadeRepository.cs,9
+CODE_SMELL,MINOR,"Rename class 'FVSModeloMap' to match camel case naming rules, consider using 'FvsModeloMap'.",FVS/Mapping/FVSModeloMap.cs,10
+CODE_SMELL,MINOR,"Rename class 'RegistroFVSOutMap' to match camel case naming rules, consider using 'RegistroFvsOutMap'.",FVS/Mapping/RegistroFVSOutMap.cs,12
+CODE_SMELL,MINOR,"Rename class 'RegistroFVSUnidadeMap' to match camel case naming rules, consider using 'RegistroFvsUnidadeMap'.",FVS/Mapping/RegistroFVSUnidadeMap.cs,9
+CODE_SMELL,MINOR,"Rename class 'FVSRegistroProfile' to match camel case naming rules, consider using 'FvsRegistroProfile'.",FVS/Profiles/FVSRegistroProfile.cs,14
+CODE_SMELL,MINOR,"Rename class 'UnidadeFVS' to match camel case naming rules, consider using 'UnidadeFvs'.",FVS/UnidadeFVS.cs,7
+CODE_SMELL,MINOR,"Rename class 'KeyFVSColors' to match camel case naming rules, consider using 'KeyFvsColors'.",FVS/ValueObjects/KeyFVSColors.cs,7
+CODE_SMELL,MINOR,"Rename class 'FrameImagesFVS' to match camel case naming rules, consider using 'FrameImagesFvs'.",FVS/ValueObjects/KeyFVSColors.cs,22
+CODE_SMELL,MINOR,"Rename this enumeration to match the regular expression: '^([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",FVS/ValueObjects/ParametrosEntradaFVS.cs,7
+CODE_SMELL,MINOR,"Rename class 'CriarFVSPageViewModel' to match camel case naming rules, consider using 'CriarFvsPageViewModel'.",FVS/ViewModels/CriarFVSPageViewModel.cs,24
+CODE_SMELL,MINOR,"Remove the '_fvsRegistroOutRepository' field and declare it as a local variable in the relevant methods.",FVS/ViewModels/CriarFVSPageViewModel.cs,97
+CODE_SMELL,MINOR,"Rename class 'ExecutarFVSPageViewModel' to match camel case naming rules, consider using 'ExecutarFvsPageViewModel'.",FVS/ViewModels/ExecutarFVSPageViewModel.cs,31
+CODE_SMELL,MINOR,"Rename class 'HistoricoFVSPageViewModel' to match camel case naming rules, consider using 'HistoricoFvsPageViewModel'.",FVS/ViewModels/HistoricoFVSPageViewModel.cs,24
+CODE_SMELL,MINOR,"Rename class 'PopupSairSemSalvarFVSViewModel' to match camel case naming rules, consider using 'PopupSairSemSalvarFvsViewModel'.",FVS/ViewModels/PopupSairSemSalvarFVSViewModel.cs,13
+CODE_SMELL,MINOR,"Remove this method 'OnNavigatedFrom' to simply inherit its behavior.",FVS/ViewModels/SelecionarAptoHallPageViewModel.cs,198 - 201
+CODE_SMELL,MINOR,"Rename class 'SelecionarFVSPageViewModel' to match camel case naming rules, consider using 'SelecionarFvsPageViewModel'.",FVS/ViewModels/SelecionarFVSPageViewModel.cs,22
+CODE_SMELL,MINOR,"Remove the '_tipoEntrada' field and declare it as a local variable in the relevant methods.",FVS/ViewModels/SelecionarFVSPageViewModel.cs,103
+CODE_SMELL,MINOR,"Rename class 'TapFVSPageViewModel' to match camel case naming rules, consider using 'TapFvsPageViewModel'.",FVS/ViewModels/TapFVSPageViewModel.cs,10
+CODE_SMELL,MINOR,"Remove this unnecessary cast to 'HistoricoFVSPageViewModel'.",FVS/Views/HistoricoFVSPage.xaml.cs,25
+CODE_SMELL,MINOR,"Remove this unnecessary cast to 'HistoricoFVSPageViewModel'.",FVS/Views/HistoricoFVSPage.xaml.cs,31
+CODE_SMELL,MINOR,"Remove this unnecessary cast to 'HistoricoFVSPageViewModel'.",FVS/Views/HistoricoFVSPage.xaml.cs,48
+CODE_SMELL,MINOR,"Remove this unnecessary cast to 'SelecionarFVSPageViewModel'.",FVS/Views/SelecionarFVSPage.xaml.cs,25
+CODE_SMELL,MINOR,"Remove this unnecessary cast to 'SelecionarFVSPageViewModel'.",FVS/Views/SelecionarFVSPage.xaml.cs,30
+CODE_SMELL,MINOR,"Remove this unnecessary cast to 'SelecionarFVSPageViewModel'.",FVS/Views/SelecionarFVSPage.xaml.cs,47
+CODE_SMELL,MINOR,"Remove this property 'Contact' to simply inherit its behavior.",Helpers/HockeyAppCrashManagerListener.cs,12 - 18
+CODE_SMELL,MINOR,"Remove this property 'UserID' to simply inherit its behavior.",Helpers/HockeyAppCrashManagerListener.cs,20 - 26
+CODE_SMELL,MINOR,"Remove the 'hockeyAppUpdateManagerListener' field and declare it as a local variable in the relevant methods.",MainActivity.cs,38
+CODE_SMELL,MINOR,"Remove the '_ordemServicoUnidadeRepository' field and declare it as a local variable in the relevant methods.",OrdemServico/AcompanhamentoDiarioAppService.cs,34
+CODE_SMELL,MINOR,"Remove the '_funcionarioRepositoryReadOnly' field and declare it as a local variable in the relevant methods.",OrdemServico/AcompanhamentoDiarioAppService.cs,43
+CODE_SMELL,MINOR,"Remove this empty statement.",OrdemServico/Data/AcompanhamentoDiarioRepository.cs,43
+CODE_SMELL,MINOR,"Remove the '_ordemServicoRepository' field and declare it as a local variable in the relevant methods.",OrdemServico/Data/ConfiguracaoServicoApropriadoRepository.cs,18
+CODE_SMELL,MINOR,"Remove unassigned auto-property 'Quantidade', or set its value.",OrdemServico/Data/ConfiguracaoServicoApropriadoRepositoryReadOnly.cs,12
+CODE_SMELL,MINOR,"Remove unassigned auto-property 'CentroLogistico', or set its value.",OrdemServico/Data/OrdemServicoNumeracaoRepository.cs,18
+CODE_SMELL,MINOR,"Remove unassigned auto-property 'Realizado', or set its value.",OrdemServico/Data/OrdemServicoRepositoryReadOnly.cs,16
+CODE_SMELL,MINOR,"Remove this method 'OnBindingContextChanged' to simply inherit its behavior.",OrdemServico/Templates/OsGaugeVisaoBlocoAndroidViewCell.xaml.cs,38 - 41
+CODE_SMELL,MINOR,"Remove unassigned auto-property 'DescricaoCriterioMedicao', or set its value.",OrdemServico/ViewModels/AcompanhamentoAptoHallPageViewModel.cs,186
+CODE_SMELL,MINOR,"Remove the unnecessary Boolean literal(s).",OrdemServico/ViewModels/AcompanhamentoViewModelBase.cs,64
+CODE_SMELL,MINOR,"Remove this empty statement.",OrdemServico/ViewModels/CadastroOSBaseViewModel.cs,341
+CODE_SMELL,MINOR,"Remove the '_elementoPepSuperiorRepositoryReadOnly' field and declare it as a local variable in the relevant methods.",OrdemServico/ViewModels/EstruturaDeServicosPageViewModel.cs,27
+CODE_SMELL,MINOR,"Make this an auto-implemented property and remove its backing field.",OrdemServico/ViewModels/OrdemServicoDetalhePageViewModel.cs,24
+CODE_SMELL,MINOR,"Remove the '_eventAggregator' field and declare it as a local variable in the relevant methods.",OrdemServico/ViewModels/OrdemServicoDetalhePageViewModel.cs,31
+CODE_SMELL,MINOR,"Remove the '_contratoRepositoryReadOnly' field and declare it as a local variable in the relevant methods.",OrdemServico/ViewModels/SelecaoDeServicosFiltroPageViewModel.cs,25
+CODE_SMELL,MINOR,"Remove unassigned auto-property 'TipoMedicaoSelecionada', or set its value.",OrdemServico/ViewModels/SelecaoDeServicosPageViewModel.cs,77
+CODE_SMELL,MINOR,"Remove this redundant jump.",OrdemServico/Views/AcompanhamentoAptoHallPage.xaml.cs,103
+CODE_SMELL,MINOR,"'PopupPageCustom' implements 'INotifyPropertyChanged' so 'INotifyPropertyChanged' can be removed from the inheritance list.",OrdemServico/Views/AcompanhamentoDiaImprodutivoPopupPage.xaml.cs,11
+CODE_SMELL,MINOR,"'PopupPageCustom' implements 'INotifyPropertyChanged' so 'INotifyPropertyChanged' can be removed from the inheritance list.",OrdemServico/Views/JustificativaCancelamentoPopupPage.xaml.cs,9
+CODE_SMELL,MINOR,"'PopupPageCustom' implements 'INotifyPropertyChanged' so 'INotifyPropertyChanged' can be removed from the inheritance list.",OrdemServico/Views/OrdemServicoPassivoSapPopupPage.xaml.cs,9
+CODE_SMELL,MINOR,"Remove the 'scroller' field and declare it as a local variable in the relevant methods.",Renderers/SfListViewWithNoScrollRenderer.cs,13
+CODE_SMELL,MINOR,"Remove this empty statement.",Sincronizacao/SincronizacaoRepository.cs,85
+CODE_SMELL,MINOR,"Remove this empty statement.",Sincronizacao/SincronizacaoRepositoryObsoleto.cs,60
+CODE_SMELL,MINOR,"Remove the '_obraRepository' field and declare it as a local variable in the relevant methods.",Sincronizacao/ViewModels/SincronizacaoListaPageViewModel.cs,29
+CODE_SMELL,MINOR,"Remove this unnecessary cast to 'SincronizacaoObraInDto'.",Sincronizacao/ViewModels/SincronizacaoListaPageViewModel.cs,60
+CODE_SMELL,MINOR,"Use '.Any()' to test whether this 'IEnumerable<MRV.Obras.Mobile.Forms.Core.Dtos.SincronizacaoObraInDto>' is empty or not.",Sincronizacao/ViewModels/SincronizacaoListaPageViewModel.cs,120
+CODE_SMELL,MINOR,"Remove this unnecessary cast to 'SincronizacaoObraInDto'.",Sincronizacao/ViewModels/SincronizacaoListaPageViewModel.cs,233
+CODE_SMELL,MINOR,"Refactor your code not to use hardcoded absolute paths or URIs.",AppSettings.cs,43
+CODE_SMELL,MINOR,"Make this an auto-implemented property and remove its backing field.",ContextAppSettings.cs,221
+CODE_SMELL,MINOR,"Make this an auto-implemented property and remove its backing field.",ContextAppSettings.cs,235
+CODE_SMELL,MINOR,"Rename class 'FVSModelosController' to match camel case naming rules, consider using 'FvsModelosController'.",Controllers/FVSModelosController.cs,12
+CODE_SMELL,MINOR,"Rename class 'FVSRegistroController' to match camel case naming rules, consider using 'FvsRegistroController'.",Controllers/FVSRegistroController.cs,22
+CODE_SMELL,MINOR,"Remove the '_usuarioConectadoRepository' field and declare it as a local variable in the relevant methods.",Controllers/UsuarioController.cs,22
+CODE_SMELL,MINOR,"Remove unassigned field '_processoFilaRepository', or set its value.",Core/BusAppService.cs,12
+CODE_SMELL,MINOR,"Remove unassigned field '_producerBus', or set its value.",Core/BusAppService.cs,13
+CODE_SMELL,MINOR,"Use the opposite operator ('<=') instead.",Core/DataResultsDto.cs,10
+CODE_SMELL,MINOR,"Remove unassigned field '_version', or set its value.",Core/Entities/ProcessoFilaLog.cs,32
+CODE_SMELL,MINOR,"Remove this unused 'val' local variable.",Core/Validations/ValidationFluent.cs,108
+CODE_SMELL,MINOR,"Rename class 'FVSModelo' to match camel case naming rules, consider using 'FvsModelo'.",FVS/Entities/FVSModelo.cs,8
+CODE_SMELL,MINOR,"Rename class 'RegistroFVS' to match camel case naming rules, consider using 'RegistroFvs'.",FVS/Entities/RegistroFVS.cs,10
+CODE_SMELL,MINOR,"Rename class 'FVSModeloDto' to match camel case naming rules, consider using 'FvsModeloDto'.",FVS/FVSModeloDto.cs,7
+CODE_SMELL,MINOR,"Rename class 'FVSRegistroAppService' to match camel case naming rules, consider using 'FvsRegistroAppService'.",FVS/FVSRegistroAppService.cs,22
+CODE_SMELL,MINOR,"Rename class 'FVSRegistroServiceTest' to match camel case naming rules, consider using 'FvsRegistroServiceTest'.",FVS/FVSRegistroServiceTest.cs,24
+CODE_SMELL,MINOR,"Rename class 'RegistroFVSFactory' to match camel case naming rules, consider using 'RegistroFvsFactory'.",FVS/Factories/RegistroFVSFactory.cs,10
+CODE_SMELL,MINOR,"Rename class 'GrupoFVSIn' to match camel case naming rules, consider using 'GrupoFvsIn'.",FVS/GrupoFVSIn.cs,7
+CODE_SMELL,MINOR,"Rename interface 'IFVSRegistroAppService' to match camel case naming rules, consider using 'IFvsRegistroAppService'.",FVS/Interfaces/IFVSRegistroAppService.cs,11
+CODE_SMELL,MINOR,"Rename interface 'IFVSProcessoReadonlyRepository' to match camel case naming rules, consider using 'IFvsProcessoReadonlyRepository'.",FVS/Interfaces/Repositories/IFVSProcessoReadonlyRepository.cs,9
+CODE_SMELL,MINOR,"Rename interface 'IFVSRegistroRepository' to match camel case naming rules, consider using 'IFvsRegistroRepository'.",FVS/Interfaces/Repositories/IFVSRegistroRepository.cs,9
+CODE_SMELL,MINOR,"Rename interface 'IFVSRegistroService' to match camel case naming rules, consider using 'IFvsRegistroService'.",FVS/Interfaces/Services/IFVSRegistroService.cs,9
+CODE_SMELL,MINOR,"Rename class 'ItemFVSIn' to match camel case naming rules, consider using 'ItemFvsIn'.",FVS/ItemFVSIn.cs,7
+CODE_SMELL,MINOR,"Rename class 'OpcaoItemFVSIn' to match camel case naming rules, consider using 'OpcaoItemFvsIn'.",FVS/OpcaoItemFVSIn.cs,7
+CODE_SMELL,MINOR,"Rename class 'RegistroFVSIn' to match camel case naming rules, consider using 'RegistroFvsIn'.",FVS/RegistroFVSIn.cs,7
+CODE_SMELL,MINOR,"Rename class 'RegistroFVSOut' to match camel case naming rules, consider using 'RegistroFvsOut'.",FVS/RegistroFVSOut.cs,7
+CODE_SMELL,MINOR,"Rename class 'ReprovacaoItemFVSIn' to match camel case naming rules, consider using 'ReprovacaoItemFvsIn'.",FVS/ReprovacaoItemFVSIn.cs,7
+CODE_SMELL,MINOR,"Rename class 'FVSRegistroService' to match camel case naming rules, consider using 'FvsRegistroService'.",FVS/Services/FVSRegistroService.cs,17
+CODE_SMELL,MINOR,"Rename this enumeration to match the regular expression: '^([A-Z]{1,3}[a-z0-9]+)*([A-Z]{2})?$'.",FVS/ValueObjects/EtapaFVS.cs,7
+CODE_SMELL,MINOR,"Rename class 'MRVObrasContext' to match camel case naming rules, consider using 'MrvObrasContext'.",MRVObrasContext.cs,20
+CODE_SMELL,MINOR,"Rename class 'RegistroFVSMap' to match camel case naming rules, consider using 'RegistroFvsMap'.",Mapping/FVS/RegistroFVSMap.cs,11
+CODE_SMELL,MINOR,"Remove this unused 'ordemServico' local variable.",OrdemServico/Bus/OrdemServicoCriacaoMessageHandler.cs,27
+CODE_SMELL,MINOR,"Rename class 'CriarOrdemServicoASC' to match camel case naming rules, consider using 'CriarOrdemServicoAsc'.",OrdemServico/CriarOrdemServicoASC.cs,13
+CODE_SMELL,MINOR,"Rename interface 'IModeloFVSReadonlyRepository' to match camel case naming rules, consider using 'IModeloFvsReadonlyRepository'.",OrdemServico/Interfaces/ReadonlyRepositories/IModeloFVSReadonlyRepository.cs,9
+CODE_SMELL,MINOR,"Rename interface 'IRegistroFVSReadonlyRepository' to match camel case naming rules, consider using 'IRegistroFvsReadonlyRepository'.",OrdemServico/Interfaces/ReadonlyRepositories/IRegistroFVSReadonlyRepository.cs,9
+CODE_SMELL,MINOR,"Rename class 'OrdemServicoAlterarQuantidadeRealizadoBlocoASCIn' to match camel case naming rules, consider using 'OrdemServicoAlterarQuantidadeRealizadoBlocoAscIn'.",OrdemServico/OrdemServicoAlterarQuantidadeRealizadoBlocoASCIn.cs,5
+CODE_SMELL,MINOR,"Remove the '_versionDomainNotification' field and declare it as a local variable in the relevant methods.",OrdemServico/Services/AcompanhamentoDiarioService.cs,18
+CODE_SMELL,MINOR,"Remove the '_versionDomainNotification' field and declare it as a local variable in the relevant methods.",OrdemServico/Services/OrdemServicoService.cs,34
+CODE_SMELL,MINOR,"Remove this redundant jump.",OrdemServico/Services/OrdemServicoService.cs,242
+CODE_SMELL,MINOR,"Remove this hardcoded path-delimiter.",QrCode/AzureFileExplorerOperations.cs,189
+CODE_SMELL,MINOR,"Remove this unused 'data' local variable.",QrCode/AzureFileExplorerOperations.cs,307
+CODE_SMELL,MINOR,"Remove this unused 'data' local variable.",QrCode/AzureFileExplorerOperations.cs,354
+CODE_SMELL,MINOR,"Remove this unnecessary cast to 'IEnumerable<DirectoryContent>'.",QrCode/AzureFileExplorerOperations.cs,547
+CODE_SMELL,MINOR,"Remove the unnecessary Boolean literal(s).",QrCode/AzureFileExplorerOperations.cs,547
+CODE_SMELL,MINOR,"Remove this hardcoded path-delimiter.",QrCode/AzureFileExplorerOperations.cs,552
+CODE_SMELL,MINOR,"Remove this hardcoded path-delimiter.",QrCode/AzureFileExplorerOperations.cs,563
+CODE_SMELL,MINOR,"Remove this unused 'item' local variable.",Repositories/DispositivoUsuarioRepository.cs,44
+CODE_SMELL,MINOR,"Remove this unused 'id' local variable.",Repositories/DispositivoUsuarioRepository.cs,133
+CODE_SMELL,MINOR,"Rename class 'FVSProcessoReadOnlyRepository' to match camel case naming rules, consider using 'FvsProcessoReadOnlyRepository'.",Repositories/FVSProcessoReadOnlyRepository.cs,13
+CODE_SMELL,MINOR,"Rename class 'FVSRegistroRepository' to match camel case naming rules, consider using 'FvsRegistroRepository'.",Repositories/FVSRegistroRepository.cs,13
+CODE_SMELL,MINOR,"Rename class 'ModeloFVSReadOnlyRepository' to match camel case naming rules, consider using 'ModeloFvsReadOnlyRepository'.",Repositories/ModeloFVSReadOnlyRepository.cs,16
+CODE_SMELL,MINOR,"Rename class 'RegistroFVSReadOnlyRepository' to match camel case naming rules, consider using 'RegistroFvsReadOnlyRepository'.",Repositories/RegistroFVSReadOnlyRepository.cs,18
+CODE_SMELL,MINOR,"Refactor your code not to use hardcoded absolute paths or URIs.",SimpleInjectorInitializer.cs,35
+CODE_SMELL,MINOR,"Rename class 'FVSRegistroPull' to match camel case naming rules, consider using 'FvsRegistroPull'.",Sincronizacao/FVSRegistroPull.cs,8
+CODE_SMELL,MINOR,"Replace this 'Boolean' wrapper object with primitive type 'boolean'.",src/app/main/content/qrcode/file-explore/file-explore.component.ts,347
+CODE_SMELL,MINOR,"Remove this extra semicolon.",src/app/main/content/qrcode/file-obra/file-obra.component.ts,32
+CODE_SMELL,MINOR,"Simplify this expression.",src/app/shared/user.service.ts,147
+CODE_SMELL,INFO,"Complete the task associated to this 'TODO' comment.",FVS/ViewModels/ExecutarFVSPageViewModel.cs,329
+CODE_SMELL,INFO,"Complete the task associated to this 'TODO' comment.",OrdemServico/AcompanhamentoDiarioAppService.cs,339
+CODE_SMELL,INFO,"Complete the task associated to this 'TODO' comment.",OrdemServico/ViewModels/AcompanhamentoViewModelBase.cs,66
+CODE_SMELL,INFO,"Complete the task associated to this 'TODO' comment.",Sincronizacao/ViewModels/SincronizacaoListaPageViewModel.cs,166
+CODE_SMELL,INFO,"Complete the task associated to this 'TODO' comment.",Core/ConnectionFactory.cs,31
+CODE_SMELL,INFO,"Complete the task associated to this 'TODO' comment.",Core/ConnectionFactory.cs,34
+CODE_SMELL,INFO,"Complete the task associated to this 'TODO' comment.",Core/ConnectionFactory.cs,35
+CODE_SMELL,INFO,"Complete the task associated to this 'TODO' comment.",Core/ConnectionFactory.cs,41
+CODE_SMELL,INFO,"Complete the task associated to this 'TODO' comment.",Core/ConnectionFactory.cs,52
