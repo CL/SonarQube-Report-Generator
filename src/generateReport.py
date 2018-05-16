@@ -75,7 +75,7 @@ def markdown_2_html(report):
 def make_email_message(config, subject, report):
     message = MIMEMultipart('alternative')
     message['From'] = config['email_from']
-    message['To'] = config['email_to']
+    message['To'] = ", ".join(config['email_to'])
     message['Subject'] = subject
     message.attach(MIMEText(markdown_2_html(report), 'html'))
     return message
@@ -172,8 +172,9 @@ def get_measures(config):
     request.add_header('Authorization', 'Basic ' + config['token'])
     return json.loads(urllib.request.urlopen(request).read())
 
+
 def get_issues(config):
-    request = urllib.request.Request(config['url']+'/api/issues/search')
+    request = urllib.request.Request(config['url']+'/api/issues/search?componentKeys='+config['project_name'])
     request.add_header('Authorization', 'Basic ' + config['token'])
     return json.loads(urllib.request.urlopen(request).read())
 
@@ -192,7 +193,3 @@ def get_template(config):
 
 if __name__ == "__main__":
     main()
-
-
-
-
