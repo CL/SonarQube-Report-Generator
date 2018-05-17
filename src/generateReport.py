@@ -117,35 +117,35 @@ def generate_report(template, measures, issues, config):
 
 def generate_major_issues_report(config, issues):
     report = ''
-    for issue in issues['issues']:
+    for issue in issues:
         report = report + generate_issue_string(config, issue, 'MAJOR')
     return report
 
 
 def generate_critical_issues_report(config, issues):
     report = ''
-    for issue in issues['issues']:
+    for issue in issues:
         report = report + generate_issue_string(config, issue, 'CRITICAL')
     return report
 
 
 def generate_minor_issues_report(config, issues):
     report = ''
-    for issue in issues['issues']:
+    for issue in issues:
         report = report + generate_issue_string(config, issue, 'MINOR')
     return report
 
 
 def generate_blocker_issues_report(config, issues):
     report = ''
-    for issue in issues['issues']:
+    for issue in issues:
         report = report + generate_issue_string(config, issue, 'BLOCKER')
     return report
 
 
 def generate_info_issues_report(config, issues):
     report = ''
-    for issue in issues['issues']:
+    for issue in issues:
         report = report + generate_issue_string(config, issue, 'INFO')
     return report
 
@@ -153,8 +153,8 @@ def generate_info_issues_report(config, issues):
 def generate_issue_string(config, issue, severity):
     report = ''
     if issue['severity'] == severity and issue['project'] == config['project_name']:
-        nome_arquivo = issue['component'].replace(config['project_name'] + ':', '').split(":", 1)[1]
-        report = report + '\n\n >#### Descricao: \n>' + issue['message'] + '\n>##### Arquivo: ' + nome_arquivo
+        file_name = issue['component'].replace(config['project_name'] + ':', '').split(":", 1)[1]
+        report = report + '\n\n >#### Descricao: \n>' + issue['message'] + '\n>##### Arquivo: ' + file_name
         try:
             if issue['textRange']['startLine'] == issue['textRange']['endLine']:
                 report = report + '\n>##### Linha: ' + str(issue['textRange']['startLine'])
@@ -174,7 +174,23 @@ def get_measures(config):
 
 
 def get_issues(config):
-    request = urllib.request.Request(config['url']+'/api/issues/search?componentKeys='+config['project_name'])
+    response = get_issues_page(config, 1)
+    issues = response['issues']
+    if response['total'] > 100:
+        total = response['total']
+        current_total = len(issues)
+        page_counter = 1
+        while total > current_total:
+            page_counter += 1
+            response = get_issues_page(config, page_counter)
+            current_total += len(response['issues'])
+            issues.extend(response['issues'])
+    return issues
+
+
+def get_issues_page(config, page):
+    request = urllib.request.Request(
+        config['url'] + '/api/issues/search?componentKeys=' + config['project_name'] + '&p=' + str(page))
     request.add_header('Authorization', 'Basic ' + config['token'])
     return json.loads(urllib.request.urlopen(request).read())
 
