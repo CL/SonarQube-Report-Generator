@@ -183,6 +183,7 @@ def generate_issues_report(config, issues, severity, issue_type):
     return [report, csv]
 
 
+
 def generate_issue_string(config, issue, severity, issue_type):
     report = ''
     csv = ''
@@ -190,6 +191,7 @@ def generate_issue_string(config, issue, severity, issue_type):
         file_name = issue['component'].replace(config['project_name'] + ':', '').split(":", 1)[1]
         csv = issue_type + ',' + severity + ',"' + issue['message'] + '",' + file_name + ','
         report = report + '\n\n >##### Descricao: \n>' + issue['message'] + '\n>###### Arquivo: ' + file_name
+
         try:
             if issue['textRange']['startLine'] == issue['textRange']['endLine']:
                 csv = csv + str(issue['textRange']['startLine'])
@@ -253,7 +255,3 @@ def get_header_template(config):
 
 if __name__ == "__main__":
     main()
-
-
-
-
