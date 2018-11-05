@@ -220,7 +220,7 @@ def get_issues(config):
         total = response['total']
         current_total = len(issues)
         page_counter = 1
-        while total > current_total:
+        while total > current_total and page_counter < 100:
             page_counter += 1
             response = get_issues_page(config, page_counter)
             current_total += len(response['issues'])
