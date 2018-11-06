@@ -51,7 +51,6 @@ def main():
     message = make_email_message(config, html)
     send_email(config, message)
 
-
 def markdown_2_html(report):
     extensions = ['extra', 'smarty']
     html = markdown.markdown(report, extensions=extensions, output_format='html5')
@@ -208,8 +207,7 @@ def generate_issue_string(config, issue, severity, issue_type):
 
 def get_measures(config):
     project_id = get_project_id(config)
-    request = urllib.request.Request(config['url']+'/api/measures/component?componentId='+project_id+'&metricKeys='+config['metrics']+'&additionalFields=metrics,periods')
-    request.add_header('Authorization', 'Basic ' + config['token'])
+    request = urllib.request.Request('curl -u ' + config['token'] + ': ' + config['url']+'/api/measures/component?componentId='+project_id+'&metricKeys='+config['metrics']+'&additionalFields=metrics,periods')
     return json.loads(urllib.request.urlopen(request).read())
 
 
@@ -220,7 +218,7 @@ def get_issues(config):
         total = response['total']
         current_total = len(issues)
         page_counter = 1
-        while total > current_total and page_counter < 100: 
+        while total > current_total and page_counter < 100:
             page_counter += 1
             response = get_issues_page(config, page_counter)
             current_total += len(response['issues'])
@@ -229,15 +227,12 @@ def get_issues(config):
 
 
 def get_issues_page(config, page):
-    request = urllib.request.Request(
-        config['url'] + '/api/issues/search?statuses=OPEN,REOPENED&componentKeys=' + config['project_name'] + '&p=' + str(page))
-    request.add_header('Authorization', 'Basic ' + config['token'])
+    request = urllib.request.Request('curl -u ' + config['token'] + ': ' + config['url'] + '/api/issues/search?statuses=OPEN,REOPENED&componentKeys=' + config['project_name'] + '&p=' + str(page))
     return json.loads(urllib.request.urlopen(request).read())
 
 
 def get_project_id(config):
-    request = urllib.request.Request(config['url'] + '/api/components/show?key=' + config['project_name'])
-    request.add_header('Authorization', 'Basic ' + config['token'])
+    request = urllib.request.Request('curl -u ' + config['token'] + ': ' + config['url'] + '/api/components/show?key=' + config['project_name'])
     return json.loads(urllib.request.urlopen(request).read())['component']['id']
 
 
